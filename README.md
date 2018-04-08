@@ -2,7 +2,8 @@
 
 ## Задание первое: Генератор событий
 
-Где лежит: **./emitter/emitter.js**
+Где лежит: **./emitter/emitter.js**<br/>
+https://lsnq.github.io/shri-algorithm/emitter/ (только в консоли)<br/>
 
 Что делает:
 * **emitter.on(event, handler)** — подписка на событие. При вызове ссылка на handler сохраняется в массиве emitter.events[event]
@@ -22,7 +23,8 @@ ___
 
 ## Задание второе: Поиск улиц
 
-Где лежит: **./streets/suggest.js**
+Где лежит: **./streets/suggest.js**<br/>
+https://lsnq.github.io/shri-algorithm/streets/<br/>
 
 Справочник улиц: **./streets/streets.js**
 
