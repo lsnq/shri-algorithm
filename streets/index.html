@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Street Finder</title>
+</head>
+<body>
+    <style>
+        body {
+            font-size: 16px;
+            font-family: Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 2em;
+            
+        }
+        label {
+            font-size: 0.75em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.5em;
+        }
+        input {
+            font-size: 1em;
+            outline:none;
+            padding: 0.5em 0.75em;
+            margin-bottom: 1em;
+            border: 1px solid #eee;
+            transition: border-color 0.15s linear;
+        }
+        input:focus {
+            border-color: coral;
+        }
+        .suggest div {
+            padding: 0.5em;
+        }
+    </style> 
+    <label for="street">Название улицы</label>
+    <input type="text" id="street"/>
+    <div class="suggest"></div>
+    <script defer src="streets.js"></script>
+    <script defer src="suggest.js"></script>
+    
+</body>
+</html>
